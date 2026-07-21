@@ -1,6 +1,6 @@
 function calcularMedia(aluno) {
     if (aluno.notas.length === 0) {
-        return 0; // Evita divisão por zero
+        return 0; 
     }
     
     let soma = 0;
